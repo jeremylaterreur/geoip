@@ -82,7 +82,6 @@ int main(int argc, char *argv[]){
 		i=0;
 		if (debutip <= ip && ip <= finip)
 		{
-		printf (" L'ip saisie est %ld \n",ip);
 		printf (" L'ip du pays %s. \n",lepays);
 		return 0;
 		}
