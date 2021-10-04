@@ -4,7 +4,7 @@
 #include <stdlib.h>
 #include <math.h>
 
-#define MAXCHAR 1000
+#define MAXCHAR 4096
 #define CONVERT 256
 
 int main(int argc, char *argv[]){
@@ -79,11 +79,12 @@ int main(int argc, char *argv[]){
             Sortie = strtok(NULL, ",");
 			i++;
         } 
+		i=0;
 		if (debutip <= ip && ip <= finip)
 		{
 		printf (" L'ip saisie est %ld \n",ip);
 		printf (" L'ip du pays %s. \n",lepays);
-		i=0;
+		return 0;
 		}
     }
 
